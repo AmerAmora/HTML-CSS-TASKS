@@ -1,0 +1,12 @@
+.divs{background-color: black; display: inline-block; width: 200px; height: 200px; margin: 80px}
+/* Mobile responsive */
+@media screen and (min-device-width: 0px) and (max-device-width : 480px){
+
+    .divs{ display:block;  background-color: blue; margin: 30px 17%;}
+  
+}
+@media screen and (min-device-width: 481px) and (max-device-width : 768px){
+
+    .divs{ width: 25%;  display: inline-block;  background-color: rgb(29, 139, 60);  }
+  
+}
